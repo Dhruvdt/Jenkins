@@ -28,11 +28,11 @@ pipeline {
               sh 'echo Deployed'
               // sh 'mvn test'
             }
-			post{
+			//post{
 				//always{
 				//	junit '**/target/sunfire-reports/Test-*.xml'
 			//	}
-			}
+		//	}
 
         
         }
